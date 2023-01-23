@@ -1,0 +1,274 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Acme&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+
+  /* ---variable--- */
+  :root{
+    --dark-blue:rgb(59, 83, 111);
+    --light-blue:rgb(109, 177, 255);
+    --fs-base:14px;
+    --fs-small:12px;
+  }
+
+
+  /* ---base declare---- */
+
+  html,body,*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Acme', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+  }
+
+  .container{
+    width: 1180px;
+    margin: 0 auto;
+  }
+
+  .flex-justify-between{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .flex-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .flex-vertical{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+
+  ul{
+    list-style-type: none;
+    
+  }
+
+  ul li{
+    display: inline-block;
+    padding: 5px 10px;
+    padding-top: 14px;
+    
+
+  }
+
+  a{
+    text-decoration: none;
+    padding: 5px 6px;
+    color: white;
+  }
+
+  h4{
+    color: var(--dark-blue);
+    font-weight: 500;
+
+  }
+
+  .content{
+    width: calc(100%/7);
+    text-align: center;
+  }
+  /* ---global class--- */
+
+.navbar-upper{
+    background-color: var(--dark-blue);
+    font-size: var(--fs-base);
+}
+
+.services .content{
+    border-left: 0.1em solid white;
+    
+}
+
+.services .content:last-child{
+    border-right: 0.1em solid white;
+}
+
+.logo img{
+    height: 30px;
+    width: 150px;
+}
+
+.logo {
+    padding: 5px;
+    height: 30px;
+    width: 150px;
+   
+}
+
+.right li i{
+    margin: 5px;
+}
+
+.right li{
+    padding-right: 0;
+}
+
+.right li a{
+    padding-right: 0;
+}
+
+.left ul li:hover{
+    
+   
+    text-decoration: underline;
+    
+   
+
+}
+
+.left ul li:active{
+    background-color: white;
+    color: var(--dark-blue);
+
+}
+
+ul li img{
+    height: 30px;
+
+}
+
+ul li:first-child:hover{
+    background-color:var(--dark-blue);
+}
+ul li:first-child{
+    padding-left: 0;
+}
+
+ul li a:first-child{
+    padding-left: 0;
+}
+
+.login-btn{
+    background-color: var(--light-blue);
+    color: white;
+    border-radius: 3px;
+    outline: none;
+    padding: 3px 10px;
+    border: none;
+    position: relative;
+    transform: translateY(8px);
+    
+}
+
+.right ul li a i{
+    background: black;
+    border-radius: 50%;
+    padding: 3px 4px;
+}
+
+.login-btn:hover{
+    background:rgb(3, 3, 78);
+}
+
+.mico-phone-icon{
+    border-radius: 50%;
+    padding: 5px 9px;
+    border: none;
+    transform: translateX(-39px);
+    background: rgb(227, 244, 255);
+    color: var(--dark-blue);
+}
+
+.search input{
+    width: 850px;
+    width: 850px;
+    padding: 8px 49px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid grey;
+    margin: 10px  0px;
+    
+    
+}
+
+.search-btn{
+    border-radius: 50%;
+    padding: 3px;
+    color: red;
+    border: none;
+    transform: translateX(27px);
+    background: none;
+}
+
+.navbar-bottom{
+    box-shadow: 0px 4px 2px -2px grey;
+    margin-bottom: 5px;
+}
+
+.banner{
+    width: 100%;
+    
+    background: rgb(243, 243, 243);
+}
+
+.banner-right-section{
+    width: 300px;
+    
+}
+
+.banner-right a{
+    padding: 0;
+}
+
+
+
+
+.banner-right{
+    background-color: white;
+    padding: 15px 3px;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.banner-right a{
+    color: var(--light-blue);
+}
+.header{
+    position: fixed;
+    top: 0;
+}
+
+.banner-right select{
+    width: 90%;
+    margin-bottom: 3px;
+}
+
+.banner-right button{
+    width: 90%;
+    margin-bottom: 5px;
+}
+
+
+.banner-left{
+    margin-top: 20px;
+    width: 871px;
+    background-color: white;
+    margin-bottom: 20px;
+
+    
+}
+
+.services{
+    width: 100%;
+    background-color: var(--dark-blue);
+}
+
+.icon{
+    color: white;
+    background-color: red;
+}
+
+.sliding-text{
+    background-color: var(--light-blue);
+    width: 100%;
+}
